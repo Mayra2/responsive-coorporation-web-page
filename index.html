@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+   
+
+    <!-- Scripts -->
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      defer
+    ></script>
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+     <header class="site-header py-3 fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg p-0">
+            <a class="navbar-brand p-0 m-0" href="#">Design<span>Studio</span></a>
+                <button  class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle = "collapse"
+                    data-bs-target = "#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gx-5">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle text-dark tw-regular" id="navbarDropdown"
+                             role="button"
+                             data-bs-toggle="dropdown"
+                             aria-expanded="false">Services
+                            </a>
+                            <ul class="dropdown-menu"
+                            aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item text-dark" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Design</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-dark" href="#">Help</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-regular" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-regular" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-regular btn btn-outline-success px-4 radius-10" href="#">Log In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-regular btn btn-success px-4 radius-10" href="#">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+     </header>
+
+     <!-- Hero Banner -->
+      <section class="hero-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column align-items-start justify-content-center">
+                    <h2>Increase Your Customer Loyalty and Statisfaction</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius magnam maxime atque delectus asperiores molestias rerum beatae dolores veniam illo ullam facilis laudantium omnis, voluptatibus, aspernatur sunt doloremque, explicabo aliquam?</p>
+                    <a href="#" class="nav-link text-white fw-regular btn btn-success px-4 radius-10">
+                        Get Started
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/img/Group 38.png" alt="Hero Banner Image">
+                </div>
+            </div>
+        </div>
+        <div class="social-logos">
+            <div class="container">
+                <ul class="nav justify-content-between">
+                    <li>
+                        <img src="assets/img/logos_google.png" alt="Google">
+                    </li>
+                    <li>
+                        <img src="assets/img/Trello-logo-blue 1.png" alt="Trello">
+                    </li>
+                    <li>
+                        <img src="assets/img/logos_monday.png" alt="Monday">
+                    </li>
+                    <li>
+                        <img src="assets/img/Notion.png" alt="Notion">
+                    </li>
+                    <li>
+                        <img src="assets/img/Slack.png" alt="Slack">
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </section>
+
+    <!-- What we do -->
+     <section class="what-we-do" id="what-we-do">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="sub-heading">
+                        What we do
+                    </h5>
+                    <h2 class="main-heading">We provide the Perfect Solution to your business</h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="boxes-wrapper">
+                        <img src="assets/img/Activity.png" alt="Activity" class="mb-3">
+                        <h3 >Grow your business with us</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et numquam vel possimus dolore quaerat non fugit, aliquid nobis omnis mollitia obcaecati magnam, in expedita voluptates! Consequuntur, nostrum modi! Dolorem, natus.</p>
+                        <a href="#">Learn more <img src="assets/img/right-arrow.png" alt="Arrow"></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="boxes-wrapper">
+                        <img src="assets/img/Heart.png" alt="Heart" class="mb-3">
+                        <h3 >Improve brand loyalty</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et numquam vel possimus dolore quaerat non fugit, aliquid nobis omnis mollitia obcaecati magnam, in expedita voluptates! Consequuntur, nostrum modi! Dolorem, natus.</p>
+                        <a href="#">Learn more <img src="assets/img/right-arrow.png" alt="Arrow"></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="boxes-wrapper">
+                        <img src="assets/img/Work.png" alt="Work" class="mb-3">
+                        <h3 >Improve business model</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et numquam vel possimus dolore quaerat non fugit, aliquid nobis omnis mollitia obcaecati magnam, in expedita voluptates! Consequuntur, nostrum modi! Dolorem, natus.</p>
+                        <a href="#">Learn more <img src="assets/img/right-arrow.png" alt="Arrow"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     </section>
+
+     <!-- Our Progress -->
+      <section class="our-progress">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul class="nav justify-content-center">
+                        <li>
+                            <img src="assets/img/project-plan.png" alt="Project Plan"> 
+                            <h4>Completed Projects</h4>
+                            <h2>100+</h2>
+                        </li>
+                        <li>
+                            <img src="assets/img/rating (1).png" alt="Rating"> 
+                            <h4>Customer statisfaction</h4>
+                            <h2>90%</h2>
+                        </li>
+                        <li>
+                            <img src="assets/img/raise.png" alt="Raise"> 
+                            <h4>Raised by Clients</h4>
+                            <h2>$10M</h2>
+                        </li>
+                        <li>
+                            <img src="assets/img/timeline 1.png" alt="TimeLine"> 
+                            <h4>Years in Industry</h4>
+                            <h2>2y</h2>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+       <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="sub-heading">
+                        Our portfolio
+                    </h5>
+                    <h2 class="main-heading">We Provide the perfect solution
+                        <br> to your business growth.
+                    </h2>
+                </div>
+                <div class="portfolio-container">
+                    <div class="portfolio-wrapper">
+                        <img src="assets/img/portfolio-1.png" alt="Project 1">
+                        <h4>Digital Marketing Agency Website</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est hic vero temporibus et dolorum ipsum. Ratione aut recusandae harum rerum tempora minima, placeat error, nam ipsum blanditiis, cum veniam.</p>
+                    </div>
+
+                    <div class="portfolio-wrapper">
+                        <img src="assets/img/portfolio-2.png" alt="Project 1">
+                        <h4>Digital Marketing Agency Website</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est hic vero temporibus et dolorum ipsum. Ratione aut recusandae harum rerum tempora minima, placeat error, nam ipsum blanditiis, cum veniam.</p>
+                    </div>
+
+                    <div class="portfolio-wrapper">
+                        <img src="assets/img/portfolio-3.png" alt="Project 1">
+                        <h4>Digital Marketing Agency Website</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est hic vero temporibus et dolorum ipsum. Ratione aut recusandae harum rerum tempora minima, placeat error, nam ipsum blanditiis, cum veniam.</p>
+                    </div>
+
+                    <div class="portfolio-wrapper">
+                        <img src="assets/img/portfolio-4.png" alt="Project 4">
+                        <h4>Lorem</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est hic vero temporibus et dolorum ipsum. Ratione aut recusandae harum rerum tempora minima, placeat error, nam ipsum blanditiis, cum veniam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5 class="sub-heading">TESTIMONIALS</h5>
+                        <h2 class="main-heading">See what our customers <br> think about us</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonials-slider">
+                    <div class="item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem iusto, harum sapiente deserunt modi maxime vel voluptates libero iure porro tenetur doloremque, quod sunt perferendis debitis autem fuga obcaecati consequatur?</p>
+                        <div class="client-detail d-flex justify-content-start align-items-center">
+                            <img src="assets/img/avatar.png" alt="Avatar">
+                            <div class="wrapper">
+                                <h4>Emily Stone</h4>
+                                <p>CEO, Marketing Guru</p>
+                            </div>
+                         </div>
+                    </div>
+                    
+                    <div class="item">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem iusto, harum sapiente deserunt modi maxime vel voluptates libero iure porro tenetur doloremque, quod sunt perferendis debitis autem fuga obcaecati consequatur?</p>
+                            <div class="client-detail d-flex justify-content-start align-items-center">
+                                <img src="assets/img/avatar.png" alt="Avatar">
+                                <div class="wrapper">
+                                    <h4>Emily Stone</h4>
+                                    <p>CEO, Marketing Guru</p>
+                                </div>
+                            </div>
+                    </div>
+                            
+                    <div class="item">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem iusto, harum sapiente deserunt modi maxime vel voluptates libero iure porro tenetur doloremque, quod sunt perferendis debitis autem fuga obcaecati consequatur?</p>
+                                <div class="client-detail d-flex justify-content-start align-items-center">
+                                    <img src="assets/img/avatar.png" alt="Avatar">
+                                    <div class="wrapper">
+                                        <h4>Emily Stone</h4>
+                                        <p>CEO, Marketing Guru</p>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <div class="item">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem iusto, harum sapiente deserunt modi maxime vel voluptates libero iure porro tenetur doloremque, quod sunt perferendis debitis autem fuga obcaecati consequatur?</p>
+                                    <div class="client-detail d-flex justify-content-start align-items-center">
+                                        <img src="assets/img/avatar.png" alt="Avatar">
+                                        <div class="wrapper">
+                                            <h4>Emily Stone</h4>
+                                            <p>CEO, Marketing Guru</p>
+                                        </div>
+                                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <div class="subscribe">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-5 text-center">
+                        <h5 class="sub-heading">SUBSCRIBE
+                        </h5>
+                        <h2 class="main-heading">Subscribe to the latest news</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptates nihil veritatis vitae, similique quas. Magni reiciendis fuga dolore sint. Non fugiat distinctio accusamus aperiam harum magni, corrupti cum similique.
+                        </p>
+                        <form action="" id="subscribe-form">
+                            <input type="email" name="subscribe" id="subscribe" placeholder="Enter Your Email Adress">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                        <div id="subscribe-response-message" style="display: none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h2><a href="#">WEB LOGO</a></h2>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et asperiores sed dolorem facilis, obcaecati officia.
+                        </p>
+                        <ul class="nav social-icons">
+                            <li>
+                                <a href="https://facebook.com" target="_blank">     
+                                 <i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com" target="_blank">     
+                                 <i class="bi bi-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://linkedin.com" target="_blank">     
+                                     <i class="bi bi-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com" target="_blank">     
+                                     <i class="bi bi-instagram"></i></a>
+                                </li>
+                        </ul>
+                    </div>
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <ul class="nav footer-menu flex-column">
+                        <li>
+                            <a href="#what-we-do">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Adress</h3>
+                    <p>Lorem ipsum dolor sit amet. <br>
+                    Lorem, ipsum dolor.</p>
+                </div>
+                <div class="col-md-12">
+                    <p class="copyright"> Copyright &copy;</p>
+                </div>
+            </div>
+        </div>
+  </footer>
+
+</body>
+</html>
